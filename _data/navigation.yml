@@ -2,8 +2,8 @@
 main:
   - title: "Sudoku"
     url: https://daniel-e-pepper.github.io/sudoku/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "Gallery"
+    url: https://daniel-e-pepper.github.io/gallery/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
