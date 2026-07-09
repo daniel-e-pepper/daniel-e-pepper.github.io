@@ -124,9 +124,9 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-square-envelope"
       # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+    - label: "Linked In"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/danielpepperphd/"
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/channel/UCfNr5E-DqfTiopk8Fxsgn2g"
@@ -136,9 +136,6 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/daniel-e-pepper"
-    - label: "Linked In"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/danielpepperphd/"
 
 # Site Footer
 footer:
