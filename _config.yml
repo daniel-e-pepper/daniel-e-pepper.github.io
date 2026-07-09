@@ -124,7 +124,7 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-square-envelope"
       # url: "mailto:your.name@email.com"
-    - label: "Linked In"
+    - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/danielpepperphd/"
     - label: "YouTube"
