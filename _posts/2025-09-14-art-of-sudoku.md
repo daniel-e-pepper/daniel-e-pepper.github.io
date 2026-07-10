@@ -21,8 +21,8 @@ To this end, recently I started trying to set some of my own puzzles. I would li
 
 ## Dynamic Duo
 
-<div style="display: flex; align-items: center; gap: 20px;">
-  <img src="../assets/images/postimages/AoS1a.png" alt="Dynamic Duo">
+<div style="display: flex; align-items: center; gap: 8px;">
+  <img src="../assets/images/postimages/AoS1a.png" alt="Dynamic Duo" style="width: 25vw;">
   <p>
     <ul>
       <li> Normal 4x4 Sudoku rules apply (see above).</li>
@@ -36,12 +36,10 @@ One of the eye-catching things about sudokus like this, at least for me, was the
 
 So I will show you my way through this puzzle highlighting the logic that I used to earn every digit I place. We will start by writing out the possibilities of the various restrictions. For example, in the shaded square, we must only place an even digit (from 1,2,3,4). So this can only be a 2 or a 4. The cages are also very restricted. Two digits from 1,2,3,4 that add to 3? That can only be 1 and 2. Two digits that add to 4? That can only be 1 and 3. Now we don’t know the order of these, but they are still useful observations, so we will write “pencil marks” in the centers of the cells, just to keep track of this deduction:
 
-<p align="center">
-  <figure align="center">
-    <img src="../assets/images/postimages/AoS1b.png" alt="Dynamic Duo" style="width: 30vw; min-width: 330px;">
-    <figcaption>“pencil marks” like these help to keep track of restricted cells in the grid, which helps to see patterns and make deductions later.</figcaption>
-  </figure>
-</p>
+<figure align="center">
+  <img src="../assets/images/postimages/AoS1b.png" alt="Dynamic Duo" style="width: 30vw; min-width: 330px;">
+  <figcaption>“pencil marks” like these help to keep track of restricted cells in the grid, which helps to see patterns and make deductions later.</figcaption>
+</figure>
 
 It seems like we still can’t say anything interesting about the puzzle, but let’s keep at it for a bit. For example, by the rules of sudoku, column 1 must contain the digits 1,2,3,4. but we already know where the 1 and 2 are (just not the order). So the “empty” cells in column 1 must house the digits 3 and 4 in some order. Similarly in column 4, we know where the 1 and 3 are, so the remaining cells in column 4 must house the digits 2 and 4. Let’s add these pencil marks in.
 
@@ -57,12 +55,11 @@ Another observation we could have made was that in the bottom row, there is a pa
 
 Placing these digits in, we see that we can start getting other digits using the basic sudoku logic, and in fact, the puzzle collapses soon after.
 
-<p align="center">
-  <figure align="center">
-    <img src="../assets/images/postimages/AoS1d.png" alt="Dynamic Duo" style="width: 30vw; min-width: 100px;">
-    <figcaption>Can you finish the puzzle from here?</figcaption>
-  </figure>
-</p>
+
+<figure align="center">
+  <img src="../assets/images/postimages/AoS1d.png" alt="Dynamic Duo" style="width: 30vw; min-width: 100px;">
+  <figcaption>Can you finish the puzzle from here?</figcaption>
+</figure>
 
 A couple of things can noticed about this solution path. First, we simply made what little deductions we could based on the individual clues, this lead to restricted cells and some other logic. But later on, it was the combination of the clues (the cages + the even square) that allowed us to “break in” to the puzzle and place some digits. Just to emphasize further: we never made any arbitrary choices or guesses! The final phase of the puzzle is just about using the basic sudoku logic to fill in the grid. Harder puzzles require a deeper understanding of how the rules interact with each other in order to make meaningful deductions and “break in”.
 
