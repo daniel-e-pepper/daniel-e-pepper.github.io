@@ -38,7 +38,7 @@ So I will show you my way through this puzzle highlighting the logic that I used
 
 <p align="center">
   <figure align="center">
-    <img src="../assets/images/postimages/AoS1b.png" alt="Dynamic Duo" style="width: 55vw; min-width: 330px;">
+    <img src="../assets/images/postimages/AoS1b.png" alt="Dynamic Duo" style="width: 30vw; min-width: 330px;">
     <figcaption>“pencil marks” like these help to keep track of restricted cells in the grid, which helps to see patterns and make deductions later.</figcaption>
   </figure>
 </p>
@@ -46,7 +46,7 @@ So I will show you my way through this puzzle highlighting the logic that I used
 It seems like we still can’t say anything interesting about the puzzle, but let’s keep at it for a bit. For example, by the rules of sudoku, column 1 must contain the digits 1,2,3,4. but we already know where the 1 and 2 are (just not the order). So the “empty” cells in column 1 must house the digits 3 and 4 in some order. Similarly in column 4, we know where the 1 and 3 are, so the remaining cells in column 4 must house the digits 2 and 4. Let’s add these pencil marks in.
 
 <p align="center">
-  <img src="../assets/images/postimages/AoS1c.png" alt="Dynamic Duo" style="width: 55vw; min-width: 330px;">
+  <img src="../assets/images/postimages/AoS1c.png" alt="Dynamic Duo" style="width: 30vw; min-width: 200px;">
 </p>
 
 Now there are at least two things we can notice, and both of them allow us to deduce a digit! Can you see how to place a digit from here?
@@ -59,7 +59,7 @@ Placing these digits in, we see that we can start getting other digits using the
 
 <p align="center">
   <figure align="center">
-    <img src="../assets/images/postimages/AoS1d.png" alt="Dynamic Duo" style="width: 55vw; min-width: 330px;">
+    <img src="../assets/images/postimages/AoS1d.png" alt="Dynamic Duo" style="width: 30vw; min-width: 100px;">
     <figcaption>Can you finish the puzzle from here?</figcaption>
   </figure>
 </p>
