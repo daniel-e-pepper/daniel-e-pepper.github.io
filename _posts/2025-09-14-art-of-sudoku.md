@@ -21,8 +21,7 @@ To this end, recently I started trying to set some of my own puzzles. I would li
 
 ## Dynamic Duo
 
-<a href="https://sudokupad.app/cr8xcoe5jq">
-<div style="display: flex; align-items: center; gap: 8px;">
+<div style="display: flex; align-items: center; gap: 8px; cursor: pointer;" onclick="window.location='https://sudokupad.app/cr8xcoe5jq';">
   <img src="../assets/images/postimages/AoS1a.png" alt="Dynamic Duo" style="width: 25vw;">
   <p>
     <ul>
@@ -32,7 +31,6 @@ To this end, recently I started trying to set some of my own puzzles. I would li
     </ul>
   </p>
 </div>
-</a>
 
 One of the eye-catching things about sudokus like this, at least for me, was the idea that you could solve it without any digits given! I encourage you to try this puzzle for yourself here. The key idea that I would like to get across is that you do not have to place any digits in this puzzle that you are not completely sure about. Which means every digit can be logically deduced.
 
