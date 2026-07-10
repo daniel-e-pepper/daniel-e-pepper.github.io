@@ -36,7 +36,7 @@ One of the eye-catching things about sudokus like this, at least for me, was the
 
 So I will show you my way through this puzzle highlighting the logic that I used to earn every digit I place. We will start by writing out the possibilities of the various restrictions. For example, in the shaded square, we must only place an even digit (from 1,2,3,4). So this can only be a 2 or a 4. The cages are also very restricted. Two digits from 1,2,3,4 that add to 3? That can only be 1 and 2. Two digits that add to 4? That can only be 1 and 3. Now we don’t know the order of these, but they are still useful observations, so we will write “pencil marks” in the centers of the cells, just to keep track of this deduction:
 
-<figure align="center">
+<figure style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
   <img src="../assets/images/postimages/AoS1b.png" alt="Dynamic Duo" style="width: 30vw; min-width: 330px;">
   <figcaption>“pencil marks” like these help to keep track of restricted cells in the grid, which helps to see patterns and make deductions later.</figcaption>
 </figure>
@@ -56,7 +56,7 @@ Another observation we could have made was that in the bottom row, there is a pa
 Placing these digits in, we see that we can start getting other digits using the basic sudoku logic, and in fact, the puzzle collapses soon after.
 
 
-<figure align="center">
+<figure style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
   <img src="../assets/images/postimages/AoS1d.png" alt="Dynamic Duo" style="width: 30vw; min-width: 100px;">
   <figcaption>Can you finish the puzzle from here?</figcaption>
 </figure>
