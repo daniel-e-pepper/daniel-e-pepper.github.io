@@ -32,7 +32,7 @@ To this end, recently I started trying to set some of my own puzzles. I would li
   </p>
 </div>
 
-One of the eye-catching things about sudokus like this, at least for me, was the idea that you could solve it without any digits given! I encourage you to try this puzzle for yourself here. The key idea that I would like to get across is that you do not have to place any digits in this puzzle that you are not completely sure about. Which means every digit can be logically deduced.
+One of the eye-catching things about sudokus like this, at least for me, was the idea that you could solve it without any digits given! I encourage you to try this puzzle for yourself [here](https://sudokupad.app/cr8xcoe5jq). The key idea that I would like to get across is that you do not have to place any digits in this puzzle that you are not completely sure about. Which means every digit can be logically deduced.
 
 So I will show you my way through this puzzle highlighting the logic that I used to earn every digit I place. We will start by writing out the possibilities of the various restrictions. For example, in the shaded square, we must only place an even digit (from 1,2,3,4). So this can only be a 2 or a 4. The cages are also very restricted. Two digits from 1,2,3,4 that add to 3? That can only be 1 and 2. Two digits that add to 4? That can only be 1 and 3. Now we don’t know the order of these, but they are still useful observations, so we will write “pencil marks” in the centers of the cells, just to keep track of this deduction:
 
