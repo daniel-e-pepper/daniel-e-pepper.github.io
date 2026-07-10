@@ -1,6 +1,6 @@
 ---
 title: The Art of Sudoku
-date: 2025-14-09
+date: 2025-09-14
 excerpt: "September 14, 2025"
 layout: single
 header:
