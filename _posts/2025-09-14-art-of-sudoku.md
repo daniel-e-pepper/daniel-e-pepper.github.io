@@ -7,8 +7,6 @@ header:
   teaser: "../assets/images/postimages/AoS1d.png"
 ---
 
-# The Art of Sudoku
-
 Growing up, I used to do sudokus pretty often. I would buy books of them to chew on when I had to sit around for awhile. It was encouraging that I could solve the easy and medium difficulty ones with a bit of thinking. But when it came to the “hard” or “diabolical” difficulties, it seemed like I was only able to complete them sometimes. Getting stuck on these difficult puzzles was frustrating, and in my desperation, I started resorting to guessing digits and hoping that they would lead to a solution. I think this idea of guessing robbed the joy of the puzzle from me, I got too concerned with finding a solution at any cost, that I ignored the basic premise of the puzzle: use logic to deduce digits. The joy I got from these puzzles slowly diminished and eventually I stopped doing them.
 
 The books of puzzles that I worked through were often computer-generated. This is a quick way to produce a bunch of puzzles so one can work through as many as one likes. But computer-generated puzzles have no clear logical progression, or “soul” to them. Beginner puzzlers who aren’t familiar with some of the more advanced sudoku techniques can easily get lost or stuck and resort to guessing. I think this lead me to believe there wasn’t much depth to sudoku puzzles.
@@ -26,12 +24,11 @@ To this end, recently I started trying to set some of my own puzzles. I would li
 <div style="display: flex; align-items: center; gap: 20px;">
   <img src="../assets/images/postimages/AoS1a.png" alt="Dynamic Duo">
   <p>
-  <u>Rules:</u>
-  <ul>
-    <li> Normal 4x4 Sudoku rules apply (see above).</li>
-    <li> Digits in a cage sum to the number in the top left corner of that cage.</li>
-    <li>A digit on a shaded square must be even.</li>
-  </ul>
+    <ul>
+      <li> Normal 4x4 Sudoku rules apply (see above).</li>
+      <li> Digits in a cage sum to the number in the top left corner of that cage.</li>
+      <li>A digit on a shaded square must be even.</li>
+    </ul>
   </p>
 </div>
 
@@ -40,8 +37,8 @@ One of the eye-catching things about sudokus like this, at least for me, was the
 So I will show you my way through this puzzle highlighting the logic that I used to earn every digit I place. We will start by writing out the possibilities of the various restrictions. For example, in the shaded square, we must only place an even digit (from 1,2,3,4). So this can only be a 2 or a 4. The cages are also very restricted. Two digits from 1,2,3,4 that add to 3? That can only be 1 and 2. Two digits that add to 4? That can only be 1 and 3. Now we don’t know the order of these, but they are still useful observations, so we will write “pencil marks” in the centers of the cells, just to keep track of this deduction:
 
 <p align="center">
-  <figure>
-    <img src="../assets/images/postimages/AoS1b.png" alt="Dynamic Duo">
+  <figure align="center">
+    <img src="../assets/images/postimages/AoS1b.png" alt="Dynamic Duo" style="width: 55vw; min-width: 330px;">
     <figcaption>“pencil marks” like these help to keep track of restricted cells in the grid, which helps to see patterns and make deductions later.</figcaption>
   </figure>
 </p>
@@ -49,7 +46,7 @@ So I will show you my way through this puzzle highlighting the logic that I used
 It seems like we still can’t say anything interesting about the puzzle, but let’s keep at it for a bit. For example, by the rules of sudoku, column 1 must contain the digits 1,2,3,4. but we already know where the 1 and 2 are (just not the order). So the “empty” cells in column 1 must house the digits 3 and 4 in some order. Similarly in column 4, we know where the 1 and 3 are, so the remaining cells in column 4 must house the digits 2 and 4. Let’s add these pencil marks in.
 
 <p align="center">
-  <img src="../assets/images/postimages/AoS1c.png" alt="Dynamic Duo">
+  <img src="../assets/images/postimages/AoS1c.png" alt="Dynamic Duo" style="width: 55vw; min-width: 330px;">
 </p>
 
 Now there are at least two things we can notice, and both of them allow us to deduce a digit! Can you see how to place a digit from here?
@@ -61,8 +58,8 @@ Another observation we could have made was that in the bottom row, there is a pa
 Placing these digits in, we see that we can start getting other digits using the basic sudoku logic, and in fact, the puzzle collapses soon after.
 
 <p align="center">
-  <figure>
-    <img src="../assets/images/postimages/AoS1d.png" alt="Dynamic Duo">
+  <figure align="center">
+    <img src="../assets/images/postimages/AoS1d.png" alt="Dynamic Duo" style="width: 55vw; min-width: 330px;">
     <figcaption>Can you finish the puzzle from here?</figcaption>
   </figure>
 </p>
