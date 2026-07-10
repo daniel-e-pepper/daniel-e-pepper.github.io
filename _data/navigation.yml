@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "Posts"
+    url: https://daniel-e-pepper.github.io/posts/
   - title: "Sudoku"
     url: https://daniel-e-pepper.github.io/sudoku/
   - title: "Gallery"
