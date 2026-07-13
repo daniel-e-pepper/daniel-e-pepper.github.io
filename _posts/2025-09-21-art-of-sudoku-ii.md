@@ -66,7 +66,7 @@ Better still, the ideas work for all Sudoku sizes! In what follows, I want to el
 ### Thermo-Regulated
 
 <div style="display: flex; align-items: center; gap: 8px; cursor: pointer;" onclick="window.location='https://sudokupad.app/inamd11bxq;">
-  <img src="../assets/images/ThermoRegulated.png" alt="
+  <img src="../assets/images/Thermoregulated.png" alt="
   ThermoRegulated" style="width: 25vw;">
   <p>
     <ul>
