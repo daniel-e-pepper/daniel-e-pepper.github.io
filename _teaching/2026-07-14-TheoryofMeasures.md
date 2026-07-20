@@ -1,7 +1,7 @@
 ---
 title: Theory of Measures and Integration
 date: 2026-07-14
-excerpt: "Jul 14, 2026"
+excerpt: "July 14, 2026"
 layout: single
 #header:
 #  teaser: "../assets/images/postimages/AoS1d.png"
