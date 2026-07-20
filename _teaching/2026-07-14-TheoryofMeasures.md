@@ -9,4 +9,4 @@ layout: single
 
 This is a set of notes on an accelerated mini course which serves as an introduction to measure theory and integration. The goal is to get rapidly to integration theory and functional analysis and fill in gaps as necessary, largely through exercises.
 
-You can find the notes in their current form [here](../assets/files/ThoeryofMeasuresMC.pdf)
+You can find the notes in their current form [here](https://daniel-e-pepper.github.io/assets/files/ThoeryofMeasuresMC.pdf)
