@@ -236,6 +236,10 @@ sass:
 permalink: /:categories/:title/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
+collections:
+  teaching:
+    output: true
+    permalink: /:collection/:path/
 
 # Pagination with jekyll-paginate
 paginate: 5 # amount of posts to show
@@ -331,4 +335,11 @@ defaults:
       comments: # true
       share: true
       related: true
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
 
