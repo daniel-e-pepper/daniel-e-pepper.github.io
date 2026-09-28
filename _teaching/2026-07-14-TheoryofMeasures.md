@@ -9,8 +9,12 @@ layout: single
 
 This is a set of notes on an accelerated mini course which serves as an introduction to measure theory and integration. The goal is to get rapidly to integration theory and functional analysis and fill in gaps as necessary, largely through exercises.
 
+
 You can find the notes in their current form [here](https://daniel-e-pepper.github.io/assets/files/TheoryofMeasuresMC.pdf)
 
-Update (Sept 28th, 2026): Rewrote and completed much of Lecture 1, with some new motivation, concepts, problems, and curiosities.
+
+Update (Sept 28th, 2026): Rewrote and completed much of Lecture 1, with some new motivation, concepts, problems, and curiosities. Vitali sets also shown explicitly.
+
 Update (Sept 14th, 2026): Completed Lecture 5 notes with a proof of the central lemma for the Hahn decomposition theorem (existence of positive subsets).
+
 Update (Sept 8th, 2026): Added a problem for Lecture 1, added notes on Lecture 4 and some problems. Some notes were added to Lecture 5 as well.
