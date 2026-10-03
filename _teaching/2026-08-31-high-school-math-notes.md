@@ -1,7 +1,7 @@
 ---
 title: High School Math Notes
 date: 2026-08-31
-excerpt: "August 31, 2026"
+excerpt: "This is a set of notes on certain topics that have come up in some private tutoring for highschool students recently."
 layout: single
 author_profile: false
 #header:
