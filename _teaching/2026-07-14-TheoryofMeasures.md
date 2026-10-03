@@ -1,8 +1,9 @@
 ---
 title: Theory of Measures and Integration
 date: 2026-07-14
-excerpt: "July 14, 2026"
+excerpt: "This is a set of notes on an accelerated mini course which serves as an introduction to measure theory and integration. The goal is to get rapidly to integration theory and functional analysis and fill in gaps as necessary, largely through exercises."
 layout: single
+author_profile: false
 #header:
 #  teaser: "../assets/images/postimages/AoS1d.png"
 ---
