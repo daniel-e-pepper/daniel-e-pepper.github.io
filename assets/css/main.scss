@@ -8,6 +8,15 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+/* Force single layout pages to expand and remove the left sidebar space */
+.layout--single .page {
+  @media (min-width: 64em) {
+    float: none;
+    width: 100%;
+    padding-right: 0;
+  }
+}
+
 .sudokupreview { 
 	width: 23%;
 	background-color: rgba(125, 177, 255, 0.1);
@@ -47,13 +56,4 @@ h1 {
 
 h2 {
 	text-align: center;
-}
-
-/* Force single layout pages to expand and remove the left sidebar space */
-.layout--single .page {
-  @media (min-width: 64em) {
-    float: none;
-    width: 100%;
-    padding-right: 0;
-  }
 }
