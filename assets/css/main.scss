@@ -48,3 +48,12 @@ h1 {
 h2 {
 	text-align: center;
 }
+
+/* Force single layout pages to expand and remove the left sidebar space */
+.layout--single .page {
+  @media (min-width: 64em) {
+    float: none;
+    width: 100%;
+    padding-right: 0;
+  }
+}
