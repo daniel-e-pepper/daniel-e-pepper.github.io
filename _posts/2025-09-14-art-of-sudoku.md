@@ -3,6 +3,7 @@ title: The Art of Sudoku
 date: 2025-09-14
 excerpt: "Variant sudokus are nuggets of mathematical problem solving, demanding not only clear and logical thinking but also a kind of creativity that connects ideas together."
 layout: single
+author_profile: false
 header:
   teaser: "../assets/images/postimages/AoS1d.png"
 ---
