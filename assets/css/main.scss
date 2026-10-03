@@ -9,7 +9,7 @@ search: false
 @import "minimal-mistakes"; // main partials
 
 /* Force single layout pages to expand and remove the left sidebar space */
-.layout--single .page {
+.layout--single .layout--posts .layout--collections .page {
   @media (min-width: 64em) {
     float: none;
     width: 100%;
