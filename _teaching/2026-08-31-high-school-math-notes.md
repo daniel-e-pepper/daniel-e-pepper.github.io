@@ -3,6 +3,7 @@ title: High School Math Notes
 date: 2026-08-31
 excerpt: "August 31, 2026"
 layout: single
+author_profile: false
 #header:
 #  teaser: "../assets/images/postimages/AoS1d.png"
 ---
