@@ -1,7 +1,7 @@
 ---
 title: The Art of Sudoku
 date: 2025-09-14
-excerpt: "September 14, 2025"
+excerpt: "Variant sudokus are nuggets of mathematical problem solving, demanding not only clear and logical thinking but also a kind of creativity that connects ideas together."
 layout: single
 header:
   teaser: "../assets/images/postimages/AoS1d.png"
