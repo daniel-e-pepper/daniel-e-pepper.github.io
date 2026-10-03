@@ -3,6 +3,7 @@ title: The Art of Sudoku II
 date: 2025-09-21
 excerpt: "The logic that ties together a grid of sudoku also bridges seemingly disconnected parts together. Someone under the pseudonym 'Phistomefel' was the first to explicitly point out a beautiful collection of these connected sets, proving a surprising gometric theorem about sudoku!"
 layout: single
+author_profile: false
 header:
   teaser: "../assets/images/postimages/AoS2a.png"
 ---
