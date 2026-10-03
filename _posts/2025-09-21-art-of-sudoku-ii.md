@@ -1,7 +1,7 @@
 ---
 title: The Art of Sudoku II
 date: 2025-09-21
-excerpt: "September 21, 2025"
+excerpt: "The geometry of sudoku"
 layout: single
 header:
   teaser: "../assets/images/postimages/AoS2a.png"
