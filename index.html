@@ -13,6 +13,18 @@ feature_row_left:
     url: "https://daniel-e-pepper.github.io/sudoku/"
 ---
 
+<style>
+  .page__hero--overlay .wrapper {
+    text-align: right;
+  }
+
+  .page__hero--overlay .page__title,
+  .page__hero--overlay .page__lead {
+    margin-left: auto;
+    max-width: 50%; /* Keeps the text clustered on the right half of the banner */
+  }
+</style>
+
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row id="feature_row_left" type="left" %}
