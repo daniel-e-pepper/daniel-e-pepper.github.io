@@ -8,6 +8,12 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+/* Target images inside feature rows */
+.feature__wrapper .archive__item-teaser img {
+  max-width: 23%;   /* Set your desired maximum width */
+  margin: 0 auto;     /* Center the image horizontally */
+}
+
 /* Force single layout pages to expand and remove the left sidebar space */
 .layout--single .page {
   @media (min-width: 64em) {
